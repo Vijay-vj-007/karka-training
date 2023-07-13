@@ -31,7 +31,7 @@ def view_order(your_cart,shipping_cost,sales_tax,shipping_cost_per_keychain):
     print("VIEW ORDER")
     subtotal=your_cart*10
     shipping_charges=shipping_cost+(your_cart*shipping_cost_per_keychain)
-    tax=subtotal*sales_tax
+    tax=(subtotal*8.25)/100
     total_cost=subtotal+shipping_charges+tax
     print( f"you have {your_cart} keychains.\nKeychains costs $10 per each.\nShipping Charges  {shipping_charges}.\nSubtotal  {subtotal}.\nTax  {tax}.\nTotal cost  ${total_cost}.")
     
