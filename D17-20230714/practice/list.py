@@ -15,17 +15,17 @@ names=[{"name":"vijay",
         "hobbies":["listening music","watching movies","playing"]}]
 
 
-# print(names[3]["hobbies"])
+# print(names[0]["hobbies"])
 
-for i in names[3]["hobbies"]:
-    print(i)
+# for i in names[3]["hobbies"]:
+#     print(i)
     
 # for i in names:
 #     if i["name"]  == "siva gayathiri" :
 #         print(i["hobbies"])
 
-# for name in names:
-#     print(name["name"])
+for name in names:
+   print(name["hobbies"])
 
 # names=["vijay","ajith"]
 # print(names[1])
