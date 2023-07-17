@@ -24,8 +24,8 @@ names=[{"name":"vijay",
 #     if i["name"]  == "siva gayathiri" :
 #         print(i["hobbies"])
 
-for name in names:
-   print(name["hobbies"])
+# for name in names:
+#     print(name["name"])
 
 # names=["vijay","ajith"]
 # print(names[1])

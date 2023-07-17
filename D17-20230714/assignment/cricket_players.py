@@ -46,7 +46,7 @@ def player_statistics(cricket_players):
     centuries=0
     hat_trick_wickets=[]
     top_batting_scores=[]
-    
+    sum=0
     for player in cricket_players:
 
         if player["No.of.Centuries"] > 10:
@@ -55,15 +55,20 @@ def player_statistics(cricket_players):
 
         if player["hat trick wickets"] >5:
             hat_trick_wickets.append(player["name"])
+
         
+        for top in player ["Top batting scores"]:
+            if top > sum:
+                sum=top
+            
         top_score={"Player Name": player["name"],
-                "Top Score": max(player["Top batting scores"])}
+                    "Top Score": sum}
         top_batting_scores.append(top_score)
-        
-        
+    
+            
     print("NO.of players scored more than 10 centuries:",centuries)
     print("Players taken than 5 hat trick wickets:",hat_trick_wickets)
-    print("Top batting scores of players\n",top_batting_scores)
+    print("Top batting scores of players:\n",top_batting_scores)
      
 player_statistics(cricket_players)
 
