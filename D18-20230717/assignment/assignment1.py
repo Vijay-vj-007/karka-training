@@ -33,9 +33,9 @@ def detail(names):
         percentage=(total/500)*100
         print("Percentage is: ",percentage)
 
-        if percentage > 90 or percentage > 75 and maths > 98:
+        if percentage > 90 or (percentage > 75 and maths > 98):
             print("You are eligible for MATHS BIOLOGY")
-        elif percentage >80 or percentage > 70 and maths > 90:
+        elif (percentage >80 and percentage <90 ) or (percentage > 70 and maths > 90):
             print("You are eligible for COMPUTER SCIENCE")
         else:
             print("Please choose other categories")
