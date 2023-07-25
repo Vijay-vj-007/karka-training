@@ -50,6 +50,6 @@ print(a.isalnum())"""
 print(a.isalpha())"""
 
 #join - joins items in a tuple into string
-"""a=("i","am","vijay")
-print("#".join(a))"""
+# a=("i","am","vijay")
+# print("#".join(a))
 

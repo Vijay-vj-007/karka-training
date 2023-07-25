@@ -38,12 +38,12 @@ for name in names:
 
 
 
-"""names=["vijay","abisheak","ajith","shalini","vinusha","gayathiri"]
-for i,name in enumerate(names):
-    if i< 4:
-        print(i,name)
+# names=["vijay","abisheak","ajith","shalini","vinusha","gayathiri"]
+# for i,name in enumerate(names):
+#     if i< 4:
+#         print(i,name)
 
-"""
+
 
 
 fruits=["apple","strawberry","mango","litchie","grapes"]

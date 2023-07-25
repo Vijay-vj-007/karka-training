@@ -4,7 +4,7 @@
 
 
 def find_largest(numbers):
-    largest=numbers[0]
+    largest=0
     for number in numbers:
         if number > largest:
             largest = number

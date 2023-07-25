@@ -119,28 +119,25 @@ fish_fry=160.88
 total_bill=(Biryani+chicken65+fish_fry)
 print("Total bill amount is : ", total_bill)
 """
-"""name="VIJAY"
-age=23
-height=5.8
-weight=65
-did_i_passed_sslc="TRUE"
-print("my name is :", name, "(string)")
-print("my age is :", age,"(numeric)")
-print("my height is :", height,"(numeric)")
-print("my weight is :", weight,"(numeric)")
-print("passed in SSLC :", did_i_passed_sslc,"(boolean)")"""
+# name="VIJAY"
+# age=23
+# height=5.8
+# weight=65
+# did_i_passed_sslc="TRUE"
+# print("my name is :", name, "(string)")
+# print("my age is :", age,"(numeric)")
+# print("my height is :", height,"(numeric)")
+# print("my weight is :", weight,"(numeric)")
+# print("passed in SSLC :", did_i_passed_sslc,"(boolean)")
 
 #HOMEWORK
 
-n = "* 22 * 20 * 18 *"
-print(n)
-print(n)
-n = n.replace("22", "23").replace("18", "17")
-print(n)
-print(n)
-
-
-
+# n = "* 22 * 20 * 18 *"
+# print(n)
+# print(n)
+# n = n.replace("22", "23").replace("18", "17")
+# print(n)
+# print(n)
 
 
 

@@ -31,6 +31,6 @@ print(text)
 
 #title()
 
-'''a= "i am karka"
-text=a.title()
-print(text)'''
+# a= "i am karka"
+# text=a.title()
+# print(text)

@@ -1,5 +1,11 @@
-consumer_data = {"consumer_name": "VIJAY",
-                "eb_reading":[1100, 1150, 1950, 2650, 3050]}
+consumer_name=input("Enter consumer name: ")
+consumer_reading=[]
+for i in range(5):
+    reading=int(input(f"Enter the reading for month {i+1}: "))
+    consumer_reading.append(reading)
+
+consumer_data = {"consumer_name": consumer_name,
+                "eb_reading": consumer_reading}
 
 
 def calculate_electricity_bill(consumer_data):
@@ -33,21 +39,22 @@ def calculate_electricity_bill(consumer_data):
         output.append(result)
         
     return output,Total_amount
+print(calculate_electricity_bill(consumer_data))
     
-datas,total=calculate_electricity_bill(consumer_data)
-output_text=""
-for data in datas:
-    
-    output_text=output_text+ f"Month:{data['Month']}\nUnit consumed:{data['Unit_consumed']}\nBill amount:{data['Bill_amount']}\n\n"
-    file_name="/home/vijay/txt/vijay.txt"
-    with open(file_name,"w") as file:
-        file.write(output_text)
+# datas,total=calculate_electricity_bill(consumer_data)
+# output_text=""
+# for data in datas:
 
-tot=""
-tot=tot+ f"Total amount:{str(total)}"
-file_name="/home/vijay/txt/vijay.txt"
-with open(file_name,"a") as file:
-    file.write(tot)
+#     output_text=output_text+ f"Month:{data['Month']}\nUnit consumed:{data['Unit_consumed']}\nBill amount:{data['Bill_amount']}\n\n"
+#     file_name="/home/vijay/txt/vijay.txt"
+#     with open(file_name,"w") as file:
+#         file.write(output_text)
+
+# tot=""
+# tot=tot+ f"Total amount:{str(total)}"
+# file_name="/home/vijay/txt/vijay.txt"
+# with open(file_name,"a") as file:
+#     file.write(tot)
 
 
 
