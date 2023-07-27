@@ -3,8 +3,8 @@
 print(a.capitalize())"""
 
 #lowercase - small letters
-"""a="I am vijay"
-print(a.casefold())"""
+# a="I Am vijay"
+# print(a.casefold())
 
 #center - align to center as per value
 """a="i am vijay"

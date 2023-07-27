@@ -1,5 +1,5 @@
-monthly_gold_rate=[{"month":"january","gold_rate":3500},
-                   {"month":"february","gold_rate":3000},
+monthly_gold_rate=[{"month":"january","gold_rate":3000},
+                   {"month":"february","gold_rate":3500},
                    {"month":"march","gold_rate":2500},
                    {"month":"april","gold_rate":2600}]
 
@@ -20,5 +20,3 @@ for gold in monthly_gold_rate:
 print(f"Month: {max_month}\tGold rate: {max}")
 print(f"Month: {min_month}\tGold rate: {min}")
 
-
-    

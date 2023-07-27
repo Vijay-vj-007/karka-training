@@ -13,6 +13,14 @@ else:
     print("Number 3 is greater")
 
 
+# biggest=number_1
+
+# if number_2 > biggest:
+#     biggest=number_2
+# if number_3 > biggest:
+#     biggest=number_3
+
+# print(biggest)
 
 # using extra variable
 
