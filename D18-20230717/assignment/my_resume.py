@@ -17,7 +17,7 @@ my_resume={"name":"V J KISHOLIN VIJAY",
         "Hobbies":["Listening to music","Watching movies","playing cricket"],
         "personal_details":{"fater's_name":"G.Vijayakumar","father's_occupation":"QC inspector","languages_known":["Tamil","English","Malayalam"],"DOB":"10-01-2000","Gender":"Male","Marital status":"UNMARRIED","Address":{"Door.no":"6-2A","Steet":"Vazhathottam","post":"Palliyadi","District":"kanyakumari","State":"Tamilnadu","country":"india","pin_code":629169}}}
 
-# print(my_resume["experience"]["company"])
+# print(my_resume["experience"][0]["company"])
 # print(my_resume["Educational_qualification"][0]["Level"])
 # address=my_resume["personal_details"]["Address"]
 # for post in address:

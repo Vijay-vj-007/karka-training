@@ -27,3 +27,10 @@ date_str="24 December 2023"
 c=datetime.strptime(date_str,"%d %B %Y")
 d=c+timedelta(days=5)
 print(d)
+
+
+from dateutil import parser
+ 
+DT = parser.parse("Jun 23 2022 07:31PM")
+ 
+print(DT)

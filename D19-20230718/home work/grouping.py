@@ -13,8 +13,9 @@ for item in items_list:
         fruits.append(item["name"])
     if item["category"]=="Vegetables":
         vegetable.append(item["name"])
-items["Fruits"]=fruits
-items["Vegetables"]=vegetable
+# items["Fruits"]=fruits
+# items["Vegetables"]=vegetable
+items={"Fruits":fruits,"Vegetables":vegetable}
 print(items)
 
 
