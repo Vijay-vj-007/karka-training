@@ -1,0 +1,9 @@
+n=[1,5,3,7,9,13]
+for i in range(len(n)-1):
+    for j in range(i+1,len(n)):
+        if n[i]+n[j]==10:
+            output=[i,j]
+            print(output)
+        
+
+    

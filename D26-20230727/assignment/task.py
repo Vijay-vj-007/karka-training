@@ -13,3 +13,10 @@ c = datetime.strptime(date, "%d %B %Y")
 d = c - timedelta(days=day)
 e= d.strftime("%d %B %Y")
 print(e)
+
+
+
+# i=1
+# while 1:
+#     print(i)
+#     i=i+1
